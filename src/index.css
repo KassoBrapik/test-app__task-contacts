@@ -370,6 +370,17 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.recomenadion_format_date{
+  font-size: 12px;
+  font-weight: 400;
+  margin: 15px 0
+}
+.error_days_sign{
+  font-size: 12px;
+  font-weight: 400;
+  color: red
+}
+
 /* ------------------------------footer--------------------------- */
 .footer-wrap {
   background-color: #213b82;
