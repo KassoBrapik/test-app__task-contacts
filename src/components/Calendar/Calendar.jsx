@@ -124,8 +124,15 @@ class Calendar extends Component {
             <div className="difference-days__numeral">{numeralDays}</div>
           </div>
         </div>
-        <div className="recomenadion_format_date">*даты прибытия и отбытия следует вносить в формате 13  /12  /  2018</div>
-          {errorStartDate || errorFinalDate ? <div className="error_days_sign">**Вы не заполнили поля дат прибытия и отбытия</div> : null}
+        <div className="recomenadion_format_date">
+          * date of arrival and departure should be entered in the format 13 /12
+          / 2018
+        </div>
+        {errorStartDate || errorFinalDate ? (
+          <div className="error_days_sign">
+            **You did not fill in the arrival and departure dates fields
+          </div>
+        ) : null}
       </div>
     );
   }
