@@ -37,14 +37,43 @@ class HowItWorks extends Component {
           </p>
         </HowItWorksStep>
         <HowItWorksStep
-          title="Standart Compliant"
+          title="How to see the code"
           color="#00c2a5"
           imageSrc={standartCompilationImage}
         >
-          <p>Some information</p>
+          <p>
+            <span className="step-content__title">Step 1:</span>Install the
+            React Developer Tools into Chrome browser
+          </p>
+          <p>
+            <span className="step-content__title">Step 2:</span>Open Chrome
+            DevTools and find there the main menu
+          </p>
+          <p>
+            <span className="step-content__title">Step 3:</span>Open React
+            Developer Tools
+          </p>
+          <p>
+            <span className="step-content__title">Step 4:</span>Enjoy the code
+          </p>
         </HowItWorksStep>
-        <HowItWorksStep title="Secrets" color="#ecbf00" imageSrc={secretsImage}>
-          <p>This project was created by "create-react-app"</p>
+        <HowItWorksStep
+          title="Secrets and tips"
+          color="#ecbf00"
+          imageSrc={secretsImage}
+        >
+          <p className="devExperience">
+            This project was created by "create-react-app". Only Developer
+            Experience
+          </p>
+          <p>
+            On the second page - Calendar - there is a simple application with
+            logic written with React.js
+          </p>
+          <p>
+            And on the third page - Contacts - there are links to my social
+            resources
+          </p>
         </HowItWorksStep>
       </div>
     );

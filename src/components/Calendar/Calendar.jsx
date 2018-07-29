@@ -81,7 +81,9 @@ class Calendar extends Component {
     } = this.state;
     return (
       <div className="calendar">
-        <h2 className="calendar__title">Difference days calculator</h2>
+        <h2 className="calendar__title">
+          Difference days calculator ( sample application )
+        </h2>
         <div className="calendar__form">
           <div className="start-date">
             <label className="start-date__label" htmlFor="start-date">

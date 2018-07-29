@@ -209,6 +209,10 @@ body {
   margin-right: 16px;
 }
 
+.devExperience {
+  font-weight: 400;
+}
+
 /* ----------------------------Calendar ----------------------------- */
 .calendar {
   display: flex;
@@ -364,15 +368,15 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.recomenadion_format_date{
+.recomenadion_format_date {
   font-size: 12px;
   font-weight: 400;
-  margin: 15px 0
+  margin: 15px 0;
 }
-.error_days_sign{
+.error_days_sign {
   font-size: 12px;
   font-weight: 400;
-  color: red
+  color: red;
 }
 
 /* ------------------------------footer--------------------------- */
